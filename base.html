@@ -1,0 +1,57 @@
+{# это шаблон сайта #}
+<!DOCTYPE htms>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>{% block title %}K&U {% endblock %}</title>
+     
+     
+</head>
+<body bgcolor="#87CEEB">
+
+{% block nav %}
+
+<!-- Верхняя панель навигации -->
+<nav style="background-color: #469db9; padding: 15px 0; margin-bottom: 30px;">
+    <div style="max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center;">
+        <!-- Логотип -->
+        <div style="color: white; font-size: 24px; font-weight: bold;">
+            K&U
+        </div>
+        
+        <!-- Меню навигации -->
+        <ul style="display: flex; list-style: none; margin: 0; padding: 0; gap: 30px;">
+            <li><a href="/" style="color: white; text-decoration: none; font-size: 16px;">Главная</a></li>
+            <li><a href="/childrenclothing" style="color: white; text-decoration: none; font-size: 16px;">детская одежда</a></li>
+            <li><a href="/menclothing" style="color: white; text-decoration: none; font-size: 16px;">мужская одежда</a></li>
+            <li><a href="/womenclothing" style="color: white; text-decoration: none; font-size: 16px;">женская одежда</a></li>
+            <li><a href="/discountsandpromotions" style="color: white; text-decoration: none; font-size: 16px;">скидки и акции</a></li>
+        </ul>
+        
+        <!-- Иконки действий -->
+        <div style="display: flex; gap: 20px;">
+            <a href="/basket" style="color: white; text-decoration: none; font-size: 16px;">🛒</a>
+            <a href="/proba" style="color: white; text-decoration: none; font-size: 16px;">👤</a>
+        </div>
+    </div>
+</nav>
+
+ <img src="https://i.pinimg.com/736x/fe/fd/34/fefd3480b1ffcd624c7d80fce958e8aa.jpg" width="100" height="150">
+<!--</ul>
+    <li><a href="/">главная</a></if> лементы списка
+    <li><a href="/discountsandpromotions">скидки и акции</a></if>
+    <li><a href="/menclothing">мужская одежда</a></if>
+    <li><a href="/womenclothing">женская одежда</a></if>
+    <li><a href="/childrenclothing">детская одежда</a></if> 
+    -->
+    
+</ul>
+{% endblock %}
+
+{% block content%}
+
+{% endblock %}
+
+</body>
+</html>
