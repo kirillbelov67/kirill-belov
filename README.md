@@ -122,7 +122,6 @@ Wilovv/
     ├── basket.html             # Корзина
     ├── children.clothing.htm        # детская одежда
     ├── index.html              # Главная страница
-    ├── discountsand.promotions.html               # скидки и акции
     ├── proba.html              # Регистрация
     ├── men.clothing.html          # мужская одежда
     └── women.clothing.html               # женская одежда
